@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main{
+    background-color: bisque;
+    width: 350px;
+    height: 450px;
+    border: 1px solid #cecece;
+}
+
+.titleSub{
+    padding-top: 20px;
+}
+
+.title{
+    font: icon;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 38px;
+}
+
+
+.subtitle{
+    font: icon;
+    font-size: 10px;
+    padding-left: 40px;
+    color: #5ea248;
+}
+
+.bloque3{
+    display: flex;
+    background-color: aquamarine;
+}
+
+.imagenProducto{
+    width: 120px;
+    height: 120px;
+}
+
+.productoInfo{
+    width: 100%;
+    background-color: azure;
+}
+
