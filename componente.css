@@ -83,6 +83,7 @@
 
 
 /* BLOQUE 3 */
+
 .bloque3{
     display: flex;
     align-items: center;
@@ -99,7 +100,7 @@
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 15px;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-flow: column;
 }
@@ -175,4 +176,55 @@
     height: 35px;
     border: 2px solid #e6e606;
     background-color: white;
+}
+
+/* BLOQUE 4 */
+
+.bloque4{
+    padding-top: 130px;
+    display: flex;
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+}
+
+.totalAproximado{
+    color: #808080bf;
+}
+
+
+.imagenIconoInfo{
+    padding-left: 15px;
+    width: 13px;
+    height: 13px;
+}
+
+.precioTotalAproximado{
+    padding-left: 120px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.simboloPrecioTotal{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+/* BLOQUE 5 */
+
+
+.bloque5{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.tramitarPedido{
+    height: 35px;
+    width: 90%;
+    background-color: #01AC60;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #80DBB4;
+    border-color: #80dbb463;
+    cursor: pointer;
 }

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Basic Web Template</title>
+        <title> Articulos en el carro </title>
         <link rel="stylesheet" href="componente.css">
     </head>
     <body>
@@ -24,11 +24,11 @@
                 </div>
 
                 <div class="botonVaciarCarro">
-                    <button onclick="vaciarCarro();"> Vaciar </button>
+                    <button onclick="vaciarCarrito();"> Vaciar </button>
                 </div>
 
                 <div class="botonCuboVaciarCarro">
-                    <button onclick="vaciarCarro();">
+                    <button onclick="vaciarCarrito();">
                         <img class="botonCuboVaciarCarroImagen" src="./img/imagenBasura.png" alt="">
                     </button>
                 </div>
@@ -47,8 +47,13 @@
                 <div class="productoInfo">
                     <div>
                         <p class="nomProducto">Palmera de cacao</p>
-                        <p><span class="negrita"> 1,75€</span><span class="productoUd"> /ud.</span></p>
+                        <p>
+                            <span class="negrita" id="precioArticulo"> 1.75 </span>
+                            <span> € </span>
+                            <span class="productoUd"> /ud.</span>
+                        </p>
                     </div>
+
                     <hr class="separador">
                     <div class="productoAddContenedor">
                         <div class="enCarroCont">
@@ -63,14 +68,17 @@
                 </div>
             </div>
 
-            <div class="bloque4">
-
+            <div class="bloque4">     
+                <img class="imagenIconoInfo" src="./img/imagenIconoINFO.jpg" alt="">
+                <span class="totalAproximado"> Total aproximado </span>
+                <span class="precioTotalAproximado" id = "precioTotal"> 1 </span>
+                <span class="simboloPrecioTotal"> € </span>
             </div>
 
             <div class="bloque5">
-
-                
+                <button class="tramitarPedido" onclick="tramitarPedido();">Tramitar pedido</button>
             </div>
+        
 
         </div>
         <script src="componente.js" type="text/javascript"></script>
