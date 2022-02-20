@@ -227,4 +227,6 @@
     box-shadow: 0 0 3px #80DBB4;
     border-color: #80dbb463;
     cursor: pointer;
+    font-weight: bold;
+    color: white;
 }
