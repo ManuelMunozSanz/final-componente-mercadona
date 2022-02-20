@@ -9,6 +9,11 @@
     <body>
         <div class="main">
             <div class="bloque1">
+                
+                <div class="botonSalirDelCarro">
+                    <button onclick="eliminarDelCarro();"> X </button>
+                </div>
+
                 <div class="titleSub">
                     <h1 class="title">
                         Carro
@@ -18,14 +23,17 @@
                     </h2>
                 </div>
 
-                <div>
-
+                <div class="botonVaciarCarro">
+                    <button onclick="vaciarCarro();"> Vaciar </button>
                 </div>
 
-                <div>
-
+                <div class="botonCuboVaciarCarro">
+                    <button onclick="vaciarCarro();">
+                        <img class="botonCuboVaciarCarroImagen" src="./img/imagenBasura.png" alt="">
+                    </button>
                 </div>
-        </div>
+                
+            </div>
             
             <div class="bloque2">
 
@@ -45,7 +53,7 @@
                     <div class="productoAddContenedor">
                         <div class="enCarroCont">
                             <p class="enCarro">En carro</p>
-                            <p class="unidades"><span id="unidad">0</span> ud.</p>
+                            <p class="unidades"><span id="unidad"> 1 </span> ud.</p>
                         </div>
                         <div class="botonesAddRem">
                             <button onclick="remUnidad();">DEL</button>

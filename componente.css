@@ -7,7 +7,7 @@
 
 
 .main{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     width: 350px;
     height: 450px;
     border: 1px solid #cecece;
@@ -19,23 +19,66 @@
 
 
 /* BLOQUE 1 */
-.titleSub{
+
+.bloque1{
     padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.titleSub{
+    padding-left: 1px;
 }
 
 .title{
-    font: icon;
     font-weight: bold;
     font-size: 30px;
-    padding-left: 38px;
 }
 
-
 .subtitle{
-    font: icon;
     font-size: 10px;
-    padding-left: 40px;
+    padding-left: 3px;
     color: #5ea248;
+}
+
+.botonSalirDelCarro{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.botonSalirDelCarro button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    color: #808080bf;
+}
+
+.botonVaciarCarro{
+    padding-left: 135px;
+}
+
+.botonVaciarCarro button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #808080bf;
+}
+
+.botonCuboVaciarCarro button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.botonCuboVaciarCarroImagen{
+    padding-left: 5px;
+    height: 15px;
+    width: 15px;
 }
 
 
@@ -43,7 +86,7 @@
 .bloque3{
     display: flex;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }
 
 .imagenProducto{
