@@ -1,4 +1,4 @@
-var contador = 1;
+var contador = 0;
 
 var unidad = document.getElementById("unidad");
 
@@ -10,7 +10,7 @@ function addUnidad(){
 
 function remUnidad(){
     console.log("remUnidad");
-    if(contador > 1){
+    if(contador >= 1){
         contador--;
         unidad.textContent = contador;
     }
