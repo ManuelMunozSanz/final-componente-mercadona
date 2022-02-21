@@ -149,15 +149,14 @@
     color: gray;
 }
 
+.marron{
+    color: #8b5050;
+}
+
 .unidades{
     font-weight: bold;
     font-size: 20px!important;
-    color: #8b5050;
     margin-top: 2px;
-}
-
-.unidades span{
-    color: #8b5050;
 }
 
 .botonesAdd{
@@ -174,8 +173,12 @@
     border-radius: 50px;
     width: 35px;
     height: 35px;
-    border: 2px solid #e6e606;
+    border: 2px solid #FEB431;
     background-color: white;
+}
+
+.botonesAddRem button:hover{
+    background-color: #FEB431;
 }
 
 /* BLOQUE 4 */
